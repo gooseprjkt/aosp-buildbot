@@ -7,7 +7,7 @@
 # It is containing all needed info,
 # you will get a failed build if you don't read the docs!
 # Adding anything there will not give any effect.
-export ALLOW_MISSING_DEPENDENCIES=true
+
 export DEVICE_CODENAME=chime
 export DEVICE_VENDOR=xiaomi
 export MANIFEST_URL=https://github.com/Halium/android.git
