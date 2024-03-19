@@ -16,12 +16,12 @@ export MANIFEST_INIT_OPTIONS=
 export SYNC_OPTIONS=-j$(nproc --all)
 export LUNCH_TARGET=lineage_chime-eng
 export BUILDING_OPTIONS=-j$(nproc --all)
-export KERNEL_REPO_URL=
-export KERNEL_REPO_BRANCH=
-export VENDOR_REPO_URL=
-export VENDOR_REPO_BRANCH=
-export DEVICE_TREE_REPO_URL=
-export DEVICE_TREE_REPO_BRANCH=
+export KERNEL_REPO_URL=https://github.com/crdroidandroid/android_kernel_xiaomi_chime.git
+export KERNEL_REPO_BRANCH=pyro
+export VENDOR_REPO_URL=https://github.com/KiranPranay/vendor_xiaomi_juice.git
+export VENDOR_REPO_BRANCH=11
+export DEVICE_TREE_REPO_URL=https://github.com/crdroidandroid/android_device_xiaomi_chime.git
+export DEVICE_TREE_REPO_BRANCH=11.0
 
 # Now specify here any enviroment options,
 # like ALLOW_MISSING_DEPENDENCIES=true
