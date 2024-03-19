@@ -2,5 +2,5 @@
 
 echo Building
 . build/envsetup.sh
-breakfast lineage_chime-eng
-m -j$(nproc --all)
+breakfast "$LUNCH_TARGET"
+mka "$BUILDING_OPTIONS"
